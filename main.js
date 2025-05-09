@@ -7,6 +7,10 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 800, // Define a largura da janela
     height: 600, // Define a altura da janela
+    alwaysOnTop: true,
+    frame: true,
+    icon: 'assets/logo.png',
+    transparent: true,
   })
 
   win.setMenuBarVisibility(false) // Oculta a barra de menu da janela
